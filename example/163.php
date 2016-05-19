@@ -38,7 +38,7 @@ for($i=0;$i<count($_match[0]);$i++)
 }
 
 ///获取描述
-for($i=0;$i<count($_match[0]) && $i < 20;$i++)
+for($i=0;$i<count($_match[0]) && $i < 10;$i++)
 {
      $coment = mb_convert_encoding(file_get_contents($comlinkArr[$i]), 'gbk', 'utf-8');
      preg_match_all('/content":"([^<].+?)","/i', $coment, $de); 
@@ -62,7 +62,7 @@ $rss = new CyrilPerrin\Rss\Rss(
 //$rss->setImage('Tux', 'tux.png', 'http://www.example.org');
 
 //读取20条新闻
-for($i=0;$i<20;$i++)
+for($i=0;$i<10;$i++)
 {
     
 	$rss->addItem(
