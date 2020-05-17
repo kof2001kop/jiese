@@ -19,7 +19,7 @@
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 	curl_setopt($ch, CURLOPT_NOBODY, true);
 	curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-	curl_setopt($ch, CURLOPT_POST, false);
+	//curl_setopt($ch, CURLOPT_POST, false);
 	$result = curl_exec($ch);
 	curl_close($ch);
 	$result = substr($result, 0, strpos($result, "\r\n\r\n"));
