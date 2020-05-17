@@ -24,7 +24,8 @@
 	curl_close($ch);
 	$result = substr($result, 0, strpos($result, "\r\n\r\n"));
 	$result = explode("\r\n", $result);
-
+	
+if(false){
 	//请求网址:https://cccat.io/cdn-cgi/beacon/performance?req_id=$cf-ray
 	$cf_ray = "";
 	$Cookies = "";
@@ -67,7 +68,7 @@
 	curl_setopt($ch, CURLOPT_POST, false);
 	$result = curl_exec($ch);
 	curl_close($ch);
-
+}
 	//login
 	if (false)
 	{
