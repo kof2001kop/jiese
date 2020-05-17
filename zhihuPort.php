@@ -10,7 +10,7 @@
     "Connection:keep-alive",
     "Host:cccat.io",
     "Upgrade-Insecure-Requests:1",
-    "User-Agent:Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:76.0) Gecko/20100101 Firefox/76.0"
+    "User-Agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
 	);
 
 	//使用curl发送
@@ -54,7 +54,7 @@
     "Origin:https://cccat.io/",
     "Referer:https://cccat.io/",
     "TE:Trailers",
-    "User-Agent:Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:76.0) Gecko/20100101 Firefox/76.0"
+    "User-Agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
 	);
 
 	array_push($headers2, $Cookies);
