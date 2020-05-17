@@ -69,6 +69,8 @@
 	curl_close($ch);
 
 	//login
+	if (false)
+	{
 	$post_data['email'] = 'kof2001kopkpr@gmail.com';
 	$post_data['passwd'] = 'nmpvvg';
 
@@ -99,7 +101,7 @@
 	$result = curl_exec($ch);
 	curl_close($ch);
 
-
+}
 	//print_r ($result);
 	echo $result;
 
